@@ -9,6 +9,9 @@ function ProjectCard({ project }: Props) {
             <div className="card-title">
                 <p>{project.title}</p>
             </div>
+            <div className="card-img">
+                <img src={project.preview}></img>
+            </div>
             <div className="card-desc">
                 <p>{project.desc}</p>
             </div>
@@ -19,6 +22,7 @@ function ProjectCard({ project }: Props) {
 interface Props {
     project: {
         title: string,
+        preview: string,
         desc: string,
         url: string
     }

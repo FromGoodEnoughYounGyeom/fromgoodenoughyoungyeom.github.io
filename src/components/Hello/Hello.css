@@ -45,6 +45,8 @@
 }
 .section--hello .wrapper-links {
 	margin-top: 50px;
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+	
 }
 .section--hello .wrapper-links > * {
 	display: inline-block;

@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Typed from 'typed.js';
 import './Hello.css';
 import { greeting } from '../../portfolio';
 import Social from '../Social/Social';
 
 function Hello() {
-	const Fade: any = require("react-reveal/Fade");
+	const Fade: any = require("react-reveal/Fade");  
 	return (
 		<Fade bottom duration={800}>
 		<section className="section--hello">
@@ -13,11 +14,13 @@ function Hello() {
 				<div className="wrapper">
 					<div className="text-title">
 						{greeting.title}&nbsp;
-						<span className="hello-emoji">👋</span>
+						<span className="hello-emoji">🍋</span>
 					</div>
+
 					<div className="role">
-						<span>{greeting.role}</span>
+					<span>{greeting.role}</span>
 					</div>
+
 					<div className="text-subtitle">
 						<span>{greeting.subTitle}</span>
 					</div>

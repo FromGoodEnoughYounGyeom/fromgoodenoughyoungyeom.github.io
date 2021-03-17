@@ -28,7 +28,7 @@ function OpenSource() {
             .query({
                 query: gql`
                 {
-                user(login: "ikalli") {
+                user(login: "FromGoodEnoughYounGyeom") {
                     pinnedItems(first: 6, types: [REPOSITORY]) {
                         totalCount
                         edges {
@@ -74,7 +74,7 @@ function OpenSource() {
                     return <GithubCard repos={repo} key={i} />;
                 })}
             </div>
-            <a href="https://github.com/Ikalli" target="_blank" rel="noopener noreferrer">More Projects</a>
+            <a href="https://github.com/FromGoodEnoughYounGyeom" target="_blank" rel="noopener noreferrer">More Projects</a>
         </div>
     );
 }

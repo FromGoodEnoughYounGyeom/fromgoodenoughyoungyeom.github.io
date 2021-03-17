@@ -3,7 +3,7 @@ import emoji from 'react-easy-emoji';
 export const greeting = {
 	username: 'YounGyeom',
 	title: 'Hello I\'m YounGyeom',
-	subTitle: emoji("subtitle ❤"),
+	subTitle: emoji(""),
 	role: "Frontend Developer",
 	resumeLink: "Your resume link... google drive or something else",
 	// IMPORTANT
@@ -38,10 +38,10 @@ export const skills = {
 	// You need to find className for font-awesome icon
 	// Go to https://fontawesome.com/ and search icon
 	lists: [
-		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80},
-		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
+		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 90},
+		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 90},
 		{fontAwesome: "fab fa-js", text: "JS", proficiency: 70},
-		{fontAwesome: "fab fa-sass", text: "Sass", proficiency: 30},
+		{fontAwesome: "fab fa-sass", text: "Sass", proficiency: 40},
 		{fontAwesome: "fab fa-react", text: "React", proficiency: 60},
 	],
 	view: true
@@ -80,7 +80,7 @@ export const experience = {
 }
 
 export const openSourceProjects = {
-	title: emoji("Open Source Projects 💻"),
+	title: emoji("Github Repositories"),
 	view: true
 }
 
@@ -90,11 +90,13 @@ export const projects = {
 	lists: [
 		{
 			title: "Project1",
+			preview: "https://user-images.githubusercontent.com/68359858/111421002-92bcee00-872f-11eb-8c8c-4ea62ed668bd.png",
 			desc: "very very very very very very very very very very very very very very long very long description for clamp testing",
 			url: "#"
 		},
 		{
 			title: "Project2",
+			preview: "https://user-images.githubusercontent.com/68359858/111421002-92bcee00-872f-11eb-8c8c-4ea62ed668bd.png",
 			desc: "description",
 			url: "#"
 		}
@@ -141,7 +143,7 @@ export const blogs = {
 }
 
 export const contactInfo = {
-	title: "Contact To Me! 📞",
+	title: "Contact 📞",
 	subTitle: "subtitle for contact",
 	introduce: emoji("your introduce❤"),
 	view: true
